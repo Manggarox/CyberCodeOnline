@@ -530,7 +530,7 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} menit, biaya ${timeSkipCost} Units)",
+ 	 	 	 	 	"trans": "Skip Global (${timeSkipMinutes} menit, biaya ${timeSkipCost} Units)",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -561,13 +561,13 @@
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Global skip akan melewatkan waktu tunggu untuk semua pemain melakukan tugas AFK",
+ 	 	 	 	 	"trans": "Skip Global akan melewatkan waktu tunggu untuk semua pemain melakukan tugas AFK",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	},
  	 	 	"inProgressBox": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Global skip sedang berlangsung",
+ 	 	 	 	 	"trans": "skip global sedang berlangsung",
  	 	 	 	 	"eng": "Global Skip in progress"
  	 	 	 	},
  	 	 	 	"subtitle": {
@@ -579,7 +579,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Global skip membuatmu melewati waktu tunggu AFK, dan menyelesaikannya saat itu juga. \n     Efek ini akan diterapkan untuk semua pemain yang melakukan tugas AFK",
+ 	 	 	 	"trans": "Skip Global membuatmu melewati waktu tunggu AFK, dan menyelesaikannya saat itu juga. \n     Efek ini akan diterapkan untuk semua pemain yang melakukan tugas AFK",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all players performing an AFK task"
  	 	 	}
  	 	},
@@ -667,7 +667,7 @@
  	 	 	 	 	 	"eng": "Lock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Anda dapat mencegah pengikisan atau menjual barang ini secara tidak sengaja dengan menguncinya.",
+ 	 	 	 	 	 	"trans": "Anda dapat mencegah pembongkaran atau menjual barang ini secara tidak sengaja dengan menguncinya.",
  	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
  	 	 	 	 	}
  	 	 	 	}
@@ -715,7 +715,7 @@
  	 	 	 	"eng": "Print Cache"
  	 	 	},
  	 	 	"printCacheDescription": {
- 	 	 	 	"trans": "Ubah cache ini menjadi barang senjata atau peralatan yang Kamu bisa uae.",
+ 	 	 	 	"trans": "Ubah cache ini menjadi barang senjata atau peralatan yang Kamu bisa gunakan.",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
@@ -723,7 +723,7 @@
  	 	 	 	"eng": "Unlock Container"
  	 	 	},
  	 	 	"cantOpenContainerNotIdleV2": {
- 	 	 	 	"trans": "Anda tidak dapat membuka kunci kontainer saat ini",
+ 	 	 	 	"trans": "Anda tidak dapat membuka kunci wadah saat ini",
  	 	 	 	"eng": "You cannot unlock containers right now"
  	 	 	},
  	 	 	"openRedEnvelop": {
@@ -870,7 +870,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"skipCount"
  	 	 	 	],
- 	 	 	 	"trans": "Men-Skip ${skipCount}",
+ 	 	 	 	"trans": "Melewatkan ${skipCount}",
  	 	 	 	"eng": "Skipping ${skipCount}"
  	 	 	},
  	 	 	"skipAvailable": {
@@ -1181,7 +1181,7 @@
  	 	 	 	},
  	 	 	 	"printingTooLow": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Tingkatkan Percetakan Peringkat",
+ 	 	 	 	 	 	"trans": "Tingkatkan Peringkat Percetakan",
  	 	 	 	 	 	"eng": "Improve Printing Rank"
  	 	 	 	 	},
  	 	 	 	 	"description": {
@@ -1214,7 +1214,7 @@
  	 	 	 	},
  	 	 	 	"aiCore": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Gunakan AI CORN",
+ 	 	 	 	 	 	"trans": "Gunakan Inti AI",
  	 	 	 	 	 	"eng": "Use AI Core"
  	 	 	 	 	},
  	 	 	 	 	"description": {
@@ -1224,11 +1224,11 @@
  	 	 	 	},
  	 	 	 	"noAiCore": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Dapatkan AI Core",
+ 	 	 	 	 	 	"trans": "Dapatkan Inti AI",
  	 	 	 	 	 	"eng": "Acquire AI Cores"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Kamu mungkin mendapatkan inti ai dengan: \n         - Bergaul di berbagai lokasi \n         - Kerajinan dengan prosesor hash dan memo teknologi \n         - Menjarah dari musuh di semua lokasi",
+ 	 	 	 	 	 	"trans": "Kamu mungkin mendapatkan Inti AI dengan: \n         - Bergaul di berbagai lokasi \n         - Kerajinan dengan prosesor hash dan memo teknologi \n         - Menjarah dari musuh di semua lokasi",
  	 	 	 	 	 	"eng": "You may get AI Cores by: \r\n        - Scavenge in various locations\r\n        - Crafting with Hash Processors and Tech Scraps\r\n        - Looting from enemies in all locations"
  	 	 	 	 	}
  	 	 	 	},
@@ -1480,7 +1480,7 @@
  	 	 	 	 	"eng": "Tiny"
  	 	 	 	},
  	 	 	 	"tiny": {
- 	 	 	 	 	"trans": "Kecil",
+ 	 	 	 	 	"trans": "sangat Kecil",
  	 	 	 	 	"eng": "Tiny"
  	 	 	 	}
  	 	 	},
@@ -1633,7 +1633,7 @@
  	 	 	 	 	"eng": "Assign Rank"
  	 	 	 	},
  	 	 	 	"kickPlayer": {
- 	 	 	 	 	"trans": "tendangan pemain",
+ 	 	 	 	 	"trans": "keluarkan pemain",
  	 	 	 	 	"eng": "kick player"
  	 	 	 	}
  	 	 	},
@@ -1692,12 +1692,12 @@
  	 	 	 	"eng": "Password protected dungeon"
  	 	 	},
  	 	 	"enterDungeon": {
- 	 	 	 	"trans": "Masuk Dungeon",
+ 	 	 	 	"trans": "Masuk Rubanah",
  	 	 	 	"eng": "Enter Dungeon"
  	 	 	},
  	 	 	"listButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Dungeon",
+ 	 	 	 	 	"trans": "Rubanah",
  	 	 	 	 	"eng": "Dungeons"
  	 	 	 	},
  	 	 	 	"des": {
@@ -1780,7 +1780,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"date"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Kedaluwarsa di ${date}",
+ 	 	 	 	 	"trans": "Kedaluwarsa pada ${date}",
  	 	 	 	 	"eng": "Expires at ${date}"
  	 	 	 	}
  	 	 	}
@@ -1791,7 +1791,7 @@
  	 	 	 	"eng": "Daily Reward"
  	 	 	},
  	 	 	"coupon": {
- 	 	 	 	"trans": "Klaim Kupon",
+ 	 	 	 	"trans": "ambil Kupon",
  	 	 	 	"eng": "Claim Coupon"
  	 	 	},
  	 	 	"referral": {
@@ -1936,17 +1936,17 @@
  	 	 	 	"vars": [
  	 	 	 	 	"equipmentName"
  	 	 	 	],
- 	 	 	 	"trans": "${equipmentName} rusak, perbaiki di Senjata Smith di kota",
+ 	 	 	 	"trans": "${equipmentName} telah rusak, perbaiki di Senjata Smith di kota",
  	 	 	 	"eng": "${equipmentName} is broken, repair it at the Weapon Smith in the City"
  	 	 	}
  	 	},
  	 	"dungeonLobby": {
  	 	 	"showCanJoinOnly": {
- 	 	 	 	"trans": "Hanya menunjukkan rubanah yang bisa saya ikuti",
+ 	 	 	 	"trans": "Hanya menunjukkan Rubanah yang bisa saya ikuti",
  	 	 	 	"eng": "Only show dungeons I can join"
  	 	 	},
  	 	 	"noDungeon": {
- 	 	 	 	"trans": "Saat ini tidak ada Dungeon Publik",
+ 	 	 	 	"trans": "Saat ini tidak ada Rubanah Publik",
  	 	 	 	"eng": "There is currently no public dungeon"
  	 	 	},
  	 	 	"playerCount": {
@@ -1960,7 +1960,7 @@
  	 	"equipmentUpgrade": {
  	 	 	"increaseSuccessButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Meningkatkan tingkat keberhasilan",
+ 	 	 	 	 	"trans": "Tambahkan tingkat keberhasilan",
  	 	 	 	 	"eng": "Increase Success Rate"
  	 	 	 	}
  	 	 	},
@@ -2016,16 +2016,16 @@
  	 	 	},
  	 	 	"noEquipment": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Equipment tidak ditemukan",
+ 	 	 	 	 	"trans": "Perlengkapan tidak ditemukan",
  	 	 	 	 	"eng": "equipment not found"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "Pilih Equipment untuk melanjutkan",
+ 	 	 	 	 	"trans": "Pilih Perlengkapan untuk melanjutkan",
  	 	 	 	 	"eng": "Select an equipment to continue"
  	 	 	 	}
  	 	 	},
  	 	 	"selectEquipmentTitle": {
- 	 	 	 	"trans": "Silakan pilih item untuk dikalibrasi",
+ 	 	 	 	"trans": "Silakan pilih barang untuk dikalibrasi",
  	 	 	 	"eng": "Please select an item to calibrate"
  	 	 	},
  	 	 	"upgradeButton": {
@@ -2039,7 +2039,7 @@
  	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
  	 	 	},
  	 	 	"description1": {
- 	 	 	 	"trans": "CyberCode Online adalah game online, akun diperlukan untuk menyimpan data game.",
+ 	 	 	 	"trans": "CyberCode Online adalah game online, diperlukan akun untuk menyimpan data game.",
  	 	 	 	"eng": "CyberCode Online is an online game, an account is needed to store game data."
  	 	 	},
  	 	 	"description2": {
@@ -2047,7 +2047,7 @@
  	 	 	 	"eng": "please register or login with existing account"
  	 	 	},
  	 	 	"asusDescription": {
- 	 	 	 	"trans": "ASUS Phone (Zenfone, ROG) memiliki bug dengan layar tidak dapat diklik, dalam kasus ini, silakan coba matikan layarmu dan aktifkan lagi, atau letakkan aplikasi ini ke latar belakang dan lanjutkan lagi. Ini harus memperbaiki masalah :)",
+ 	 	 	 	"trans": "ASUS Phone (Zenfone, ROG) memiliki bug dengan layar tidak dapat diklik, dalam kasus ini, silakan coba matikan layarmu dan aktifkan lagi, atau letakkan aplikasi ini ke latar belakang dan lanjutkan lagi. Ini seharusnya memperbaiki masalah tersebut :)",
  	 	 	 	"eng": "ASUS phone (Zenfone, ROG) has bug with screen being not clickable, in the case, please try turning your screen off and on again, or put this app to background and resume it again. this should fix the issue :)"
  	 	 	}
  	 	},
@@ -2295,7 +2295,7 @@
  	 	 	 	"eng": "combat"
  	 	 	},
  	 	 	"dungeon": {
- 	 	 	 	"trans": "Dungeon",
+ 	 	 	 	"trans": "Rubanah",
  	 	 	 	"eng": "dungeon"
  	 	 	},
  	 	 	"social": {
@@ -2303,7 +2303,7 @@
  	 	 	 	"eng": "social"
  	 	 	},
  	 	 	"keys": {
- 	 	 	 	"trans": "Keys",
+ 	 	 	 	"trans": "Kunci",
  	 	 	 	"eng": "keys"
  	 	 	},
  	 	 	"profile": {
@@ -2315,7 +2315,7 @@
  	 	 	 	"eng": "locations"
  	 	 	},
  	 	 	"quests": {
- 	 	 	 	"trans": "pencarian",
+ 	 	 	 	"trans": "misi",
  	 	 	 	"eng": "quests"
  	 	 	},
  	 	 	"resources": {
@@ -2351,16 +2351,16 @@
  	 	 	 	 	"trans": "Wadah",
  	 	 	 	 	"eng": "Container"
  	 	 	 	},
- 	 	 	 	"trans": "Pilih kontainer",
+ 	 	 	 	"trans": "Pilih Wadah",
  	 	 	 	"eng": "Select Container"
  	 	 	},
  	 	 	"hint": {
- 	 	 	 	"trans": "Buka kunci kontainer untuk memasukkan barang -barang di dalam, membutuhkan sedikit sisa teknologi",
+ 	 	 	 	"trans": "Buka kunci wadah untuk memasukkan barang -barang di dalam, membutuhkan sedikit sisa teknologi",
  	 	 	 	"eng": "Unlock a container to get the items inside, requires small amount of tech scraps"
  	 	 	},
  	 	 	"increaseEpicDropRate": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Tingkatkan Tingkat Penurunan Tingkat Epik",
+ 	 	 	 	 	"trans": "Tingkatkan Peluang Penurunan Tingkat Epik",
  	 	 	 	 	"eng": "Increase Epic Tier Drop Rate"
  	 	 	 	},
  	 	 	 	"description": {
@@ -2498,7 +2498,7 @@
  	 	 	 	"eng": "EXP Buff (Currently ${current}%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Tingkatkan gain exp Anda hingga 80% selama 20 menit",
+ 	 	 	 	"trans": "Tingkatkan pendapatan exp Anda hingga 80% selama 20 menit",
  	 	 	 	"eng": "Increase your EXP gain by 80% for 20 minutes"
  	 	 	},
  	 	 	"button": {
@@ -2617,7 +2617,7 @@
  	 	 	"eng": "Close"
  	 	},
  	 	"dungeons": {
- 	 	 	"trans": "Dungeons",
+ 	 	 	"trans": "Rubanah",
  	 	 	"eng": "dungeons"
  	 	},
  	 	"enemies": {
@@ -2665,7 +2665,7 @@
  	"itemLore": {
  	 	"contribution": {
  	 	 	"title": {
- 	 	 	 	"trans": "Pemain berkontribusi konten",
+ 	 	 	 	"trans": "Konten hasil Kontribusi Pemain",
  	 	 	 	"eng": "Player contributed content"
  	 	 	},
  	 	 	"description": {
@@ -2692,7 +2692,7 @@
  	},
  	"enemy": {
  	 	"thief": {
- 	 	 	"trans": "Techno-The-The-Penyimpanan",
+ 	 	 	"trans": "Techno-The-Penyimpanan",
  	 	 	"eng": "Techno-Thief"
  	 	}
  	},
@@ -2708,7 +2708,7 @@
  	},
  	"inventory": {
  	 	"scrap": {
- 	 	 	"trans": "membatalkan",
+ 	 	 	"trans": "bongkar",
  	 	 	"eng": "scrap"
  	 	},
  	 	"ui": {
@@ -2720,7 +2720,7 @@
  	 	 	},
  	 	 	"autoScrap": {
  	 	 	 	"noItem": {
- 	 	 	 	 	"trans": "Tidak ada item untuk di scrap otomatis",
+ 	 	 	 	 	"trans": "Tidak ada item untuk di bongkar otomatis",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
  	 	 	}
@@ -2784,7 +2784,7 @@
  	 	 	 	"eng": "Health regen"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Jumlah darah yang diregenerasi setelah pertarungan",
+ 	 	 	 	"trans": "Jumlah darah yang dipulihkan setelah pertarungan",
  	 	 	 	"eng": "Amount of health regenerated after the end of combat"
  	 	 	}
  	 	},
@@ -2904,7 +2904,7 @@
  	 	 	 	"eng": "Stun evade"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Mengurangi kemungkinan kena stun",
+ 	 	 	 	"trans": "Mengurangi kemungkinan terkena stun",
  	 	 	 	"eng": "Decreases chance of getting stunned"
  	 	 	}
  	 	},
@@ -2960,7 +2960,7 @@
  	 	},
  	 	"upgradeChance": {
  	 	 	"name": {
- 	 	 	 	"trans": "Kesempatan Kalibrasi",
+ 	 	 	 	"trans": "Peluang Kalibrasi",
  	 	 	 	"eng": "Calibration Chance"
  	 	 	},
  	 	 	"description": {
@@ -2980,7 +2980,7 @@
  	 	},
  	 	"containerEpicDrop": {
  	 	 	"name": {
- 	 	 	 	"trans": "Epic Chance",
+ 	 	 	 	"trans": "Peluang epik",
  	 	 	 	"eng": "Epic Chance"
  	 	 	}
  	 	},
@@ -3163,7 +3163,7 @@
  	 	},
  	 	"contributionModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "Konten hasil konntribusi pemain ",
+ 	 	 	 	"trans": "Konten hasil kontribusi pemain ",
  	 	 	 	"eng": "Player contributed content"
  	 	 	},
  	 	 	"description": {
@@ -3181,7 +3181,7 @@
  	 	},
  	 	"equipmentQuickMenu": {
  	 	 	"unequip": {
- 	 	 	 	"trans": "Unequip",
+ 	 	 	 	"trans": "Lepaskan",
  	 	 	 	"eng": "unequip"
  	 	 	},
  	 	 	"viewDetails": {
@@ -3189,7 +3189,7 @@
  	 	 	 	"eng": "View Details"
  	 	 	},
  	 	 	"swap": {
- 	 	 	 	"trans": "Ganti Equipment",
+ 	 	 	 	"trans": "Ganti Perlengkapan",
  	 	 	 	"eng": "replace equipment"
  	 	 	}
  	 	},
@@ -3498,7 +3498,7 @@
  	 	 	 	"eng": "Newbie with benefit"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Bunuh beberapa musuh dan dapatkan set lengkap barang untuk memulai perjalananmu",
+ 	 	 	 	"trans": "Bunuh beberapa musuh dan dapatkan set perlengkapan barang untuk memulai perjalananmu",
  	 	 	 	"eng": "Kill some enemies and get a full set of items for you to start your journey"
  	 	 	}
  	 	},
